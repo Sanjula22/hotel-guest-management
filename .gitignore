@@ -1,0 +1,12 @@
+# Node modules
+node_modules
+
+# Vite build
+dist
+
+# PocketBase data (if needed)
+pb_data
+pb_migrations
+
+# Environment variables
+.env
