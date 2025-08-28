@@ -109,18 +109,18 @@ Open your browser and navigate to http://localhost:5173 (or the port shown in th
 The app should connect to the PocketBase backend at http://127.0.0.1:8090.
 
 Project Structure
- backend
-     pocketbase          # PocketBase executable and data
-         pb_data/        # Database and uploaded files (add to .gitignore)
-         pb_migrations/  # Migration files (version control)
-  src/
-     GuestList.tsx       # Guest list with search and table
-     AddGuestForm.tsx    # Form to add new guests
-     GuestDetail.tsx     # Form to view/edit guest details
-  .gitignore
-  README.md
-  package.json
-  vite.config.ts
+├── backend/
+│   └── pocketbase/         # PocketBase executable and data
+│       ├── pb_data/        # Database and uploaded files (add to .gitignore)
+│       ├── pb_migrations/  # Migration files (version control)
+├── src/
+│   ├── GuestList.tsx       # Guest list with search and table
+│   ├── AddGuestForm.tsx    # Form to add new guests
+│   ├── GuestDetail.tsx     # Form to view/edit guest details
+├── .gitignore
+├── README.md
+├── package.json
+└── vite.config.ts
 
 Important Notes
 
